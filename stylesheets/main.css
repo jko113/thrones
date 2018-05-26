@@ -1,0 +1,57 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+header {
+    text-align: center;
+}
+
+.title {
+    margin: 15px;
+    background-color: #444;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table, thead, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+thead td {
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+td {
+    padding: 10px;
+}
+
+tr:nth-child(odd) {
+    background-color: #ddd;
+}
+
+tr:hover {
+    background-color: rgba(0,200,0,0.3);
+}
+
+tr:first-child {
+    background-color: rgba(0,0,128,0.3);
+}
+
+/* .go-to:focus {
+    
+} */
+
+
